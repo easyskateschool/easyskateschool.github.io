@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project - Booking App</title>
+    <title>Easy Skate School</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <style> 
@@ -32,15 +32,33 @@
     
   }
   .container {
-  position: relative;
+  width: 60%;
   text-align: center;
   color: white;
 }
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: relative;
+    float: left;
+ width: 70%;
+ height: 2px;
+ top: -400px;
+}
+ .centered1 {
+ width: 70%;
+ height: 2px;
+ top: 200px;
+
+
+}
+.centered2 {
+ width: 70%;
+ height: 2px;
+ top: 300px;
+}
+.centered3 {
+ width: 70%;
+ height: 2px;
+ top: 400px;
 }
 
 footer{
@@ -48,13 +66,22 @@ footer{
     
     
   }
+  @font-face {
+      font-family: Headercostumfont;
+      src: url("font/Letters\ for\ Learners.ttf");
+  }
+  .headerfixed{
+      position: fixed;
+      width: 100%;
+      top: 0px;
+  }
     </style>
 </head>
 <body>
     <!--Header-->
     <div class="row">
       <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light headerfixed">
           <a class="nav-link" href="index.html"><a href="index.html"><img src="img/easy skate school.png"  width="80" height="60"></a></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -79,14 +106,14 @@ footer{
   </div>    
   <!--first paragraph-->
   
-  <div class="container">
-    <img src="img/skateschool1.jpg" alt="" style="width:100%;">
-    <div class="centered">
-      <h1 style="font-size: 2vw;">Want Learn Skateboard!!</h1>
-      <h2 style="font-size: 2vw;">You are right place!! We providing skateboarding lesson for all age</h2>
+  <div> 
+    <div>
+     <img src="img/first header.jpg" alt="" style="width:100%;">
+      <h1 style="font-size: 3vw; font-family: Headercostumfont;" class="centered">Want Learn Skateboard!!</h1>
+      <h2 style="font-size: 3vw; font-family: Headercostumfont;" class="centered1">You are right place!! We providing skateboarding lesson for all age</h2>
       <hr>
-      <h3 style="font-size: 2vw;">Click below to learn more about us and get free trail class for 2 week</h3>
-      <a href="course.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="font-size: 2vw;">Learn More</a>
+      <h3 style="font-size: 3vw; font-family: Headercostumfont;" class="centered2">Click below to learn more about us and get free trail class for 2 week</h3>
+      <a href="course.html" class="btn btn-secondary btn-lg active centered3" role="button" aria-pressed="true" style="font-size: 3vw; font-family: Headercostumfont;">Learn More</a>
     </div>
   </div>
    <br>
@@ -103,7 +130,6 @@ footer{
      
    </div>
    <!--third-->
-   <section>
     <div>
       <h1 class="display-3 text-center" style="font-size: 7vw;">Our Team</h1>
     </div>
@@ -130,7 +156,6 @@ footer{
        </div>
       </div>
     </div>
-</section>
     <!--Footer-->
     <div class="card text-center">
       <div class="card-header">
