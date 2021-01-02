@@ -29,6 +29,7 @@
     border-width: 1pt;
     border-color: black;
     width: 80%;
+    height: 200px;
     
   }
   .container {
@@ -70,10 +71,10 @@ footer{
       font-family: Headercostumfont;
       src: url("font/Letters\ for\ Learners.ttf");
   }
-  .headerfixed{
-      position: fixed;
+ .headerpic{
+      position: relative;
       width: 100%;
-      top: 0px;
+      top: 78px;
   }
     </style>
 </head>
@@ -81,15 +82,15 @@ footer{
     <!--Header-->
     <div class="row">
       <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light headerfixed">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
           <a class="nav-link" href="index.html"><a href="index.html"><img src="img/easy skate school.png"  width="80" height="60"></a></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         
           <div class="nav justify-content-center collapse navbar-collapse" id="navbarSupportedContent">
             <li class="nav-item active">
-              <a class="text-black-50 nav-link " href="home.html">Home</a>
+              <a class="text-black-50 nav-link " href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="text-black-50 nav-link" href="aboutUs.html">About Us</a>
@@ -108,13 +109,16 @@ footer{
   
   <div> 
     <div>
-     <img src="img/first header.jpg" alt="" style="width:100%;">
+     <img src="img/first header.jpg" alt="_blank" class="headerpic">
+    </div>
+    <div>
+     <h1>Welcome to Easy Skate School!! Learn skateboard in easy way with us  Click down below to learn more</h1>
            <a href="course.html" class="btn btn-secondary btn-lg active centered3" role="button" aria-pressed="true" style="font-size: 3vw; font-family: Headercostumfont;">Learn More</a>
     </div>
   </div>
    <br>
    <!--Second-->
-   <div class="borderStyle center" style="margin-top: 30px;">
+   <div class="borderStyle center" style="margin-top: 30%;">
      <div>
        <img src="img/class5.jpg" class="center">
      </div>
