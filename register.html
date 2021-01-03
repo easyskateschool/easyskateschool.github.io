@@ -8,9 +8,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <style> 
     .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
   width: 50%;
 }
   .fontSizeCaption{
@@ -39,8 +37,16 @@
   }
   .headerpic{
       position: relative;
+      width: 50%;
+      top: 74px;
+      left: 100px;
+      font-size: 2vw;
+  }
+  .headerpic1{
+      position: relative;
       width: 100%;
       top: 74px;
+      font-size: 2vw;
   }
     </style>
 </head>
@@ -72,7 +78,7 @@
       </div>
   </div>    
   <div>
-    <img src="img/header class.jpg" alt="" class="headerpic">
+    <img src="img/header class.jpg" alt="" class="headerpic1">
   </div>  
   <br><br><br>
   <br>
@@ -80,7 +86,7 @@
 
       <br><br>
       <div>
-        <table class="table table-bordered">
+        <table class="table table-bordered headerpic">
           <thead>
             <tr>
               <th scope="col"></th>
@@ -120,10 +126,10 @@
     </div>
     <br><br>
     <div>
-        <h1 class="display-4 center" style="font-size: 7vw;">Register Now!!</h1>
-        <h2 class="center" style="font-size: 7vw;">And Get free 2 week class trail</h2>
+        <h1 class="display-4 headerpic">Register Now!!</h1>
+        <h2 class="headerpic" >And Get free 2 week class trail</h2>
       </div>
-      <div class="row center">
+      <div class="row headerpic">
         <div class="col">
                 <div class="form-group">
                   <label for="userName">Name</label>
