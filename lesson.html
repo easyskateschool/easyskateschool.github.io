@@ -43,9 +43,11 @@
       top: 74px;
   }
   .test1{
-    margin: 2px;
-    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
     text-align: center;
+    font-family: "headercustomfont";
   }
   .test2{
     margin: 5px;
@@ -67,6 +69,7 @@
     border: 1px solid black;
     font-size: 2vw;
     
+    
    
   
   }
@@ -76,6 +79,17 @@
   th{
     border: 1px solid black;
     text-align: center;
+  }
+  @font-face {
+      font-family: headerpic;
+      src: url("font/University.otf");
+  }
+
+  h1,h2,{
+    font-family: "headerpic";
+  }
+  p{
+    font-family: "headercustomfont";
   }
     </style>
 </head>
@@ -124,7 +138,7 @@
     <br>
     <img src="img/skateequipment.jpg" alt="" class="headerpic1">
     <div>
-      <h1 class="test2">Class Category</h1>
+      <h1 class="test2"style="font-family: headerpic">Class Category</h1>
       <h2 class="test2">Beginner Class</h2>
       <p class="test1">1 month 4 session, every session is one hour and this is your learning syllabus</p>
       <table>
@@ -280,10 +294,10 @@
     </div>
   </section>
   <div class="jumbotron bg-white">
-    <h1 class="display-4 text-center">Come join us</h1>
-    <p class="lead text-center">Get a free trial class</p>
+    <h1 class="display-4 text-center" style="font-family: headerpic;">Come join us</h1>
+    <p class="lead text-center" style="font-family: headerpic;">Get a free trial class</p>
     <hr class="my-4">
-    <a class="btn btn-primary btn-lg center bg-transparent" href="course.html" role="button">HERE</a>
+    <a class="btn btn-primary btn-lg center bg-transparent" href="course.html" role="button" style="font-family:headerpic; font-size: 3vw; color: black;">HERE</a>
   </div>
     <br><br>
     <h2 style="font-family: headercustomfont; text-align: center;">follow us</h2>
